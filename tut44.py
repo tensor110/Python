@@ -20,7 +20,7 @@ class ChildClass(ParentClass1, ParentClass2, ParentClass3):
     pass
 
 # Multi-level Inheritance
-# Multilevel Inheritance in Python is a type of Inheritance that involves inheriting a class that has already inherited some other class. 
+# Multilevel Inheritance involves inheriting a class that has already inherited some other class. 
 class ParentClass:
     pass
 class ChildClass1(ParentClass):
