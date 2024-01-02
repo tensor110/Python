@@ -7,7 +7,7 @@ import concurrent.futures
 def downloadFile(url, name):
     print(f"started downloading {name}")
     res = requests.get(url)
-    open(f"tut55/file{name}.jpg", "wb".write(res.content))
+    open(f"tut55/file{name}.jpg", "wb").write(res.content)
     print(f"finished downloading {name}")
     
 url = "https://picsum.photos/200/300"

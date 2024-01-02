@@ -7,7 +7,7 @@
 # . -> Matches any character except new line 
 # ? -> Matches zero or one occurance
 # | -> Means OR(Matches with any of the characters separated by it)
-# * -> Any number of occurances(Including 0occurances)
+# * -> Any number of occurances(Including 0 occurances)
 # + -> One or more occurances
 # {} -> Indicate number of occurances of a preceding RE to match
 # () -> Enclose a group of REs 
