@@ -1,10 +1,6 @@
-# ----3----
-# --3-2-3--
-# 3-2-1-2-3
-n = 3
-for i in range(n):
-   for j in range(3*n):
-        if(i<j):
-            print("-")
-        else:
-            print(n-j)
+def missingCharacters(s):
+    val = list(map(int, s.split()))
+    print(val)
+
+st= '4654vaw6vqa6eavw'
+missingCharacters(st)
